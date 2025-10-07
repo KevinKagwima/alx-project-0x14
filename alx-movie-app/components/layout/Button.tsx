@@ -1,3 +1,5 @@
-export default function Button2() {
-  return <button>Button 2</button>;
+import { ButtonProps } from "@/interfaces";
+
+export default function Button2({ title }: ButtonProps) {
+  return <button>{title}</button>;
 }
